@@ -1,0 +1,19 @@
+.divButton {
+    max-width: 500px;
+    height: 20svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetButton {
+    width: auto;
+    height: auto;
+    padding: var(--prs-padding-m);
+    border: 4px solid var(--prs-highlight-color);
+    border-radius: var(--prs-br);
+    color: var(--prs-secondary-text);
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}

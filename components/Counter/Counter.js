@@ -4,6 +4,7 @@ import './Counter.css'
 
 
 export const printCounter = () => {
+    
 
     const container = document.querySelector(".container")
     container.innerHTML = "";

@@ -1,6 +1,6 @@
 
 import { printCounter } from '../Counter/Counter';
-import { CpuCount, GameFunction, UserCount } from '../GameFunction/GameFunction';
+import {  GameFunction } from '../GameFunction/GameFunction';
 import { paperRockScissors } from '../data/paperRockScissors';
 
 
@@ -25,11 +25,8 @@ export const printPaperRockScissors = () => {
         elementImg.src = element.img;
 
         divElement.addEventListener("click", () => {
-            message.textContent = `${GameFunction(element.name)}`;
-            console.log(element.name);
-            console.log(UserCount);
-            console.log(CpuCount);
-            printCounter()
+            message.textContent = `${GameFunction(element)}`;
+            printCounter();
         });
 
         divElement.append(elementImg);
