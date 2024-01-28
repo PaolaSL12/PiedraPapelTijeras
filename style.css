@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --prs-primary-color: #E9F2E3;
+  --prs-secondary-color: #ADC698;
+  --prs-tertiary-color: #605C4E;
+  --prs-dark-corlor: #363020;
+
+
+  --prs-text-color: var(--prs-dark-corlor);
+  --prs-backgrpund-color: var(--prs-primary-color);
+  --prs-highlight-color: var(--prs-secondary-color);
+  --prs-secondary-text: var(--prs-tertiary-color);
+
+
+  --prs-margin-s:10px;
+  --prs-margin-m:20px;
+  --prs-margin-l:30px;
+  --prs-margin-xl:40px;
+
+  --prs-padding-s:10px;
+  --prs-padding-m:20px;
+  --prs-padding-l:30px;
+  --prs-padding-xl:40px;
+
+  --prs-br: 10px;
+  --prs-br-round: 100%;
+
+}
+
+* {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  background-color: var(--prs-backgrpund-color);
+}
+
+body {
+  width: 100%;
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

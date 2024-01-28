@@ -1,0 +1,47 @@
+.divCounter {
+  max-width: 500px;
+  height: 30svh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCounter > p {
+  font-size: 2em;
+  margin: var(--prs-margin-m);
+}
+
+.counter {
+  width: 220px;
+  height: 18svh;
+  border: 3px solid var(--prs-dark-corlor);
+  border-radius: var(--prs-br);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter > p {
+  font-size: 4em;
+}
+
+@media screen and (max-width: 500px) {
+  .divCounter {
+    width: 70%;
+  }
+
+  .divCounter > p {
+    font-size: 1em;
+    margin: var(--prs-margin-m);
+  }
+
+  .counter {
+    width: 180px;
+    height: 10svh;
+  }
+
+  .counter > p {
+    font-size: 2em;
+  }
+}
